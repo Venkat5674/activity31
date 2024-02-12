@@ -1,4 +1,4 @@
-from flask import Flask,request,jsonify  #get () is used
+from flask import Flask,request  #get () is used
 from model import predict_model
 app=Flask(__name__)
 
